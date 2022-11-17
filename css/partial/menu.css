@@ -34,7 +34,7 @@ div.menu > nav > ul > li > a {
   -ms-transition: 300ms;
   -o-transition: 300ms;
 }
-div.menu > nav > ul > li > a:hover{
+div.menu > nav > ul > li > a:hover {
   color: #ef4056;
   transition: 300ms;
   -webkit-transition: 300ms;
@@ -42,61 +42,113 @@ div.menu > nav > ul > li > a:hover{
   -ms-transition: 300ms;
   -o-transition: 300ms;
 }
-div.menu>nav>ul>li>div.submenu{
-    width: calc(100vw - 20px);
-    height: 500px;
-    box-shadow: 1px 1px 5px black;
-    position: absolute;
-    display: none;
-    z-index: 1;
+div.menu > nav > ul > li > div.submenu {
+  width: calc(100vw - 20px);
+  height: 500px;
+  box-shadow: 1px 1px 5px black;
+  position: absolute;
+  display: none;
+  z-index: 30;
 }
-div.menu>nav>ul>li:hover>div.submenu{
-    display: block;
+div.menu > nav > ul > li:hover > div.submenu {
+  display: block;
+  background-color: aliceblue;
+  z-index: 30;
 }
-div.menu>nav>ul>li>div.submenu>div.right{
-    width: 15%;
-    height: inherit;
+div.menu > nav > ul > li > div.submenu > div.right {
+  width: 15%;
+  height: inherit;
+  background-color: aliceblue;
+  z-index: 1;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul{
-    width: 100%;
-    height: inherit;
+div.menu > nav > ul > li > div.submenu > div.right > ul {
+  width: 100%;
+  height: inherit;
+  background-color: aliceblue;
+  z-index: 1;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li{
-    width: inherit;
-    height: 50px;
+div.menu > nav > ul > li > div.submenu > div.right > ul > li {
+  width: inherit;
+  background-color: aliceblue;
+  height: 50px;
+  z-index: 1;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li>a{
-    display: block;
-    width: inherit;
-    height: inherit;
-    line-height: 50px;
-    font-family: iranSans;
-    font-size: 12px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding-right: 20px;
-    transition: 200ms;
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  line-height: 50px;
+  font-family: iranSans;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  padding-right: 20px;
+  transition: 200ms;
+  z-index: 1;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li>a:hover{
-    background-color: rgb(243, 243, 243);
-    color: crimson;
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > a:hover {
+  background-color: rgb(243, 243, 243);
+  color: crimson;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links{
-    width: 85%;
-    height:500px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-right: 1px solid lightgray;
-    display: none;
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > div.links {
+  width: 85%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 1px solid lightgray;
+  display: none;
+  z-index: 1;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.links{
-    display: block;
+div.menu > nav > ul > li > div.submenu > div.right > ul > li:hover > div.links {
+  display: block;
 }
-div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first,div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second,div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third,div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth{
-    display: inline-block;
-    width: 20%;
-    height: inherit;
-    border: 1px solid lightgray;
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.first,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.second,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.third,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.links
+  > div.fourth {
+  display: inline-block;
+  width: 20%;
+  height: inherit;
+  background-color: aliceblue;
+  border: 1px solid lightgray;
+  z-index: 1;
 }

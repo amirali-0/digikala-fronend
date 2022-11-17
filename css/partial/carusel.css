@@ -1,7 +1,7 @@
 div.carusel {
   width: 100%;
   height: 410px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 div.carusel > div.products {
   width: 90%;
@@ -9,7 +9,7 @@ div.carusel > div.products {
   background-color: #ef4056;
   margin: 0 auto;
   border-radius: 15px;
-  padding: 15px 5px;
+  padding: 5px 5px;
 }
 div.swiper-slide {
   flex-direction: column;
@@ -29,29 +29,28 @@ div.swiper-slide > div.text {
   display: inline-block;
 }
 
-div.text1 > a{
+div.text1 > a {
   text-decoration: none;
   color: black;
 }
 
-div.swiper-slide2 > div.image2 > img{
-width: 150px;
+div.swiper-slide2 > div.image2 > img {
+  width: 150px;
 }
 
-div.swiper-slide2 > div.text5 > h1{
+div.swiper-slide2 > div.text5 > h1 {
   font-size: 30px;
   color: white;
   margin-top: 30px;
 }
 
-div.swiper-slide2 > div.text6 > a{
+div.swiper-slide2 > div.text6 > a {
   text-decoration: none;
   color: white;
   font-size: 15px;
   margin-right: 40px;
   margin-top: 25px;
 }
-
 
 div.carusel-2 {
   width: 100%;

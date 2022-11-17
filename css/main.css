@@ -36,12 +36,11 @@ div.serch > input {
 }
 
 div.Grouping {
-  width: 90%;
-  height: 160px;
+  width: 60%;
+  height: 120px;
   display: block;
   margin: 0 auto;
   padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 div.Grouping > div.groupingContainer {
@@ -56,13 +55,13 @@ div.Grouping > div.groupingContainer > div.gyek {
   text-align: center;
 }
 div.Grouping > div.groupingContainer > div.gyek > div.gyekPhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gyek > div.gyekText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Grouping > div.groupingContainer > div.gdo {
@@ -72,13 +71,13 @@ div.Grouping > div.groupingContainer > div.gdo {
 }
 
 div.Grouping > div.groupingContainer > div.gdo > div.gdoPhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gdo > div.gdoText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Grouping > div.groupingContainer > div.gse {
@@ -88,13 +87,13 @@ div.Grouping > div.groupingContainer > div.gse {
 }
 
 div.Grouping > div.groupingContainer > div.gse > div.gsePhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gse > div.gseText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Grouping > div.groupingContainer > div.gchahar {
@@ -104,13 +103,13 @@ div.Grouping > div.groupingContainer > div.gchahar {
 }
 
 div.Grouping > div.groupingContainer > div.gchahar > div.gchaharPhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gchahar > div.gchaharText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Grouping > div.groupingContainer > div.gpanj {
@@ -120,13 +119,13 @@ div.Grouping > div.groupingContainer > div.gpanj {
 }
 
 div.Grouping > div.groupingContainer > div.gpanj > div.gpanjPhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gpanj > div.gpanjText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Grouping > div.groupingContainer > div.gshish {
@@ -136,13 +135,13 @@ div.Grouping > div.groupingContainer > div.gshish {
 }
 
 div.Grouping > div.groupingContainer > div.gshish > div.gshishPhoto {
-  height: 50%;
+  height: 60%;
   margin: 0 auto;
 }
 
 div.Grouping > div.groupingContainer > div.gshish > div.gshishText {
   padding-top: 5%;
-  height: 30%;
+  height: 40%;
 }
 
 div.Fooddiscounts {
