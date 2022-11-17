@@ -11,7 +11,6 @@ div.rapper {
 div.daeder {
   width: 100%;
   height: 40px;
-  
 }
 
 div.serch {
@@ -23,53 +22,127 @@ div.serch {
   background-position: 1210px 7px;
 }
 
-div.serch > input{
+div.serch > input {
   width: 350px;
   height: 35px;
   margin-right: 160px;
   margin-top: 5px;
   border: 1px solid lightgray;
   border-radius: 5px;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  -ms-border-radius:5px;
-  -o-border-radius:5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 div.Grouping {
-  width: 100%;
-  height: 170px;
-  background-color: #ffffff;
-  display: flex;
-}
-div.Grouping > div.groupingContainer{
-  width: 100%;
+  width: 90%;
   height: 160px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+div.Grouping > div.groupingContainer {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
-div.Grouping > div.groupingContainer > div.gyek{
-  width: 45%;
+div.Grouping > div.groupingContainer > div.gyek {
   height: 100%;
-  background-color: #a6b600;
-  flex: 25%;
+  flex: 16.67%;
+  text-align: center;
+}
+div.Grouping > div.groupingContainer > div.gyek > div.gyekPhoto {
+  height: 50%;
+  margin: 0 auto;
 }
 
-div.Grouping > div.groupingContainer > div.gyek > div.gyekphoto{
-  flex: 50%;
-  margin: 0px 0px 0px 0px;
+div.Grouping > div.groupingContainer > div.gyek > div.gyekText {
+  padding-top: 5%;
+  height: 30%;
 }
 
-div.Grouping > div.groupingContainer > div.gdo{
-  width: 45%;
+div.Grouping > div.groupingContainer > div.gdo {
   height: 100%;
-  background-color: #a6b600;
-  flex: 25%;
+  flex: 16.67%;
+  text-align: center;
 }
 
-div.Grouping > div.groupingContainer > div.gyek > div.dophoto{
-  flex: 50%;
-  margin: 0px 0px 0px 0px;
+div.Grouping > div.groupingContainer > div.gdo > div.gdoPhoto {
+  height: 50%;
+  margin: 0 auto;
+}
+
+div.Grouping > div.groupingContainer > div.gdo > div.gdoText {
+  padding-top: 5%;
+  height: 30%;
+}
+
+div.Grouping > div.groupingContainer > div.gse {
+  height: 100%;
+  flex: 16.67%;
+  text-align: center;
+}
+
+div.Grouping > div.groupingContainer > div.gse > div.gsePhoto {
+  height: 50%;
+  margin: 0 auto;
+}
+
+div.Grouping > div.groupingContainer > div.gse > div.gseText {
+  padding-top: 5%;
+  height: 30%;
+}
+
+div.Grouping > div.groupingContainer > div.gchahar {
+  height: 100%;
+  flex: 16.67%;
+  text-align: center;
+}
+
+div.Grouping > div.groupingContainer > div.gchahar > div.gchaharPhoto {
+  height: 50%;
+  margin: 0 auto;
+}
+
+div.Grouping > div.groupingContainer > div.gchahar > div.gchaharText {
+  padding-top: 5%;
+  height: 30%;
+}
+
+div.Grouping > div.groupingContainer > div.gpanj {
+  height: 100%;
+  flex: 16.67%;
+  text-align: center;
+}
+
+div.Grouping > div.groupingContainer > div.gpanj > div.gpanjPhoto {
+  height: 50%;
+  margin: 0 auto;
+}
+
+div.Grouping > div.groupingContainer > div.gpanj > div.gpanjText {
+  padding-top: 5%;
+  height: 30%;
+}
+
+div.Grouping > div.groupingContainer > div.gshish {
+  height: 100%;
+  flex: 16.67%;
+  text-align: center;
+}
+
+div.Grouping > div.groupingContainer > div.gshish > div.gshishPhoto {
+  height: 50%;
+  margin: 0 auto;
+}
+
+div.Grouping > div.groupingContainer > div.gshish > div.gshishText {
+  padding-top: 5%;
+  height: 30%;
 }
 
 div.Fooddiscounts {
@@ -96,7 +169,7 @@ div.Fooddiscounts > div.bishaz {
   line-height: 120px;
 }
 
-div.Fooddiscounts > div.bishaz > span > a{
+div.Fooddiscounts > div.bishaz > span > a {
   text-decoration: none;
   color: #a6b600;
   border: 1px solid #ebeeeb;
@@ -167,7 +240,7 @@ div.Technology {
   background-image: url("../imgs8/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg");
   background-repeat: no-repeat;
   background-size: 80px;
-  background-position: 1200px 20px ;
+  background-position: 1200px 20px;
 }
 
 div.Technology > table {
@@ -182,9 +255,8 @@ div.Technology > table > tr {
   border-radius: 15px;
 }
 
-div.Technology > h4{
+div.Technology > h4 {
   margin: 8px 0px 0px;
-  
 }
 
 div.berand {
@@ -263,7 +335,7 @@ div.plus > div.digiPlus {
   flex: 75%;
 }
 
-div.plus > div.digiPlus> div.hedie {
+div.plus > div.digiPlus > div.hedie {
   width: 46%;
   height: inherit;
   background-color: aliceblue;
@@ -273,10 +345,9 @@ div.plus > div.digiPlus> div.hedie {
   padding-top: 20px;
   border-radius: 0px 15px 15px 0px;
   flex: 40%;
-
 }
 
-div.plus > div.digiPlus> div.enteghal {
+div.plus > div.digiPlus > div.enteghal {
   width: 46%;
   height: inherit;
   background-color: aliceblue;
@@ -312,7 +383,7 @@ div.club > div.digiClubPhoto {
   right: 0px;
 }
 
-div.club> div.clubContainer {
+div.club > div.clubContainer {
   width: 50%;
   height: 90px;
   margin: 5px 5px 5px 5px;
@@ -320,7 +391,7 @@ div.club> div.clubContainer {
   display: flex;
 }
 
-div.club > div.clubContainer> div.yek {
+div.club > div.clubContainer > div.yek {
   width: 33%;
   height: 100%;
   margin: 0px 2.5px 0px 2.5px;
@@ -328,12 +399,12 @@ div.club > div.clubContainer> div.yek {
   display: flex;
 }
 
-div.club > div.clubContainer> div.yek > div.yekPhoto {
+div.club > div.clubContainer > div.yek > div.yekPhoto {
   flex: 50%;
   margin: 0px 0px 0px 0px;
 }
 
-div.club > div.clubContainer> div.yek > div.yekText {
+div.club > div.clubContainer > div.yek > div.yekText {
   flex: 50%;
   border-radius: 0px 15px 15px 0px;
   margin: 0px 0px 0px 0px;
@@ -342,7 +413,7 @@ div.club > div.clubContainer> div.yek > div.yekText {
   line-height: 85px;
 }
 
-div.club > div.clubContainer> div.do {
+div.club > div.clubContainer > div.do {
   width: 33%;
   height: 100%;
   margin: 0px 2.5px 0px 2.5px;
@@ -350,12 +421,12 @@ div.club > div.clubContainer> div.do {
   display: flex;
 }
 
-div.club > div.clubContainer> div.do > div.doPhoto {
+div.club > div.clubContainer > div.do > div.doPhoto {
   flex: 50%;
   margin: 0px 0px 0px 0px;
 }
 
-div.club > div.clubContainer> div.do > div.doText {
+div.club > div.clubContainer > div.do > div.doText {
   flex: 50%;
   margin: 0px 0px 0px 0px;
   background-color: white;
@@ -363,22 +434,21 @@ div.club > div.clubContainer> div.do > div.doText {
   line-height: 85px;
 }
 
-div.club > div.clubContainer> div.se {
+div.club > div.clubContainer > div.se {
   width: 33%;
   height: 100%;
   margin: 0px 2.5px 0px 2.5px;
   flex: 33%;
   display: flex;
-}  
+}
 
-div.club > div.clubContainer> div.se > div.sePhoto {
+div.club > div.clubContainer > div.se > div.sePhoto {
   flex: 50%;
   margin: 0px 0px 0px 0px;
   border-radius: 15px 0px 0px 15px;
 }
 
-
-div.club > div.clubContainer> div.se > div.seText {
+div.club > div.clubContainer > div.se > div.seText {
   flex: 50%;
   margin: 0px 0px 0px 0px;
   background-color: white;
@@ -458,7 +528,7 @@ div.khandami {
   display: flex;
 }
 
-div.y{
+div.y {
   border: 1px solid lightgray;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -466,5 +536,3 @@ div.y{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
-
