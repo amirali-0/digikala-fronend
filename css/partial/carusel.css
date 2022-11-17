@@ -62,13 +62,17 @@ div.carusel-2 > div.products-2 {
   height: 180px;
   border-radius: 15px;
 }
-div.swiper-slide {
+div.swiper-slide3 {
   flex-direction: column;
 }
-div.swiper-slide > div.image-2 {
+div.swiper-slide3 > div.image-2 {
   width: 100%;
 }
-div.swiper-slide > div.image-2 > img {
+div.swiper-slide3 > div.image-2 > img {
   width: 100%;
   object-fit: cover;
+}
+
+div.img-22 {
+  background-color: #7e1624;
 }
